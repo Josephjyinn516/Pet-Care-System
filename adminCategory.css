@@ -1,0 +1,78 @@
+.colour1 {
+    background-color: #fff8cc;
+    min-height: 75vh;
+    width: auto;
+    display: flex;
+    padding: 0rem 2rem 2rem 2rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titleappointmenttext {
+    display: flex;
+    padding: 0rem 0rem 2rem 0rem;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* .table tr {
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: #5D5D5A;
+    border-color: #5D5D5A;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+} */
+
+.table {
+    display: flex;
+}
+
+.table th{
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: #5D5D5A;
+    /* border-color: #5D5D5A; */
+    /* border-style: solid; */
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.table td {
+    /* border-color: #5D5D5A;
+    border-style: solid; */
+
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #FFA45C;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.iconcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputfield {
+    background: #FFA45C;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    border: solid;
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.inputcontainer {
+    padding: 2rem 0rem 0rem 1rem;
+}

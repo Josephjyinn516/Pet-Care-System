@@ -1,0 +1,429 @@
+.colour1 {
+    background-color: #fff8cc;
+    min-height: 75vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem 0rem 10rem;
+}
+
+.colour2 {
+    background-color: white;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 10rem 0rem 10rem;
+}
+
+.colourpage5 {
+
+    background-color: #fff8cc;
+    min-height: 75vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.servicepagepic {
+    width: 360px;
+    height: 540px;
+    border-radius: 2rem;
+}
+
+.servicepage1 {
+    display: flex;
+    padding-left: 0rem;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 5rem 0rem 5rem 10rem;
+    width: 100%;
+}
+
+.servicepage1text1 {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 5rem;
+    padding: 5rem 0rem 3rem 0rem;
+    width: 100%;
+
+    color: #5D5D5A;
+}
+
+.servicepage1text2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: left;
+    width: 70%;
+
+    color: #5D5D5A;
+}
+
+.servicepage1icon {
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.servicepage1iconpic {
+    width: 3rem;
+    height: 3rem;
+}
+
+.servicepageicontext{
+    margin-left: 2rem;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.servicepage2 {
+    display: flex;
+    padding-left: 0rem;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0rem 10rem 5rem 0rem;
+    width: 100%;
+}
+
+.servicepage2pic {
+    width: 400px;
+    height: 300px;
+    border-radius: 2rem;
+}
+.servicepage2text1 {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    color: #5D5D5A;
+}
+
+.servicepage5{
+    display: flex;
+    padding-left: 0rem;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0rem 0rem 0rem 0rem;
+    width: 100%;
+
+    /* display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column; */
+}
+
+.servicepage5icon2 {
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    align-items: center;
+    min-width: 18rem;
+}
+
+.servicepage5pic {
+    position: absolute;
+    left: 300px;
+    top: 3780px;
+    /* padding: 30rem 30rem 0rem 0rem; */
+}
+
+.servicepage5content{
+    display: flex;
+}
+
+* {
+    border: none;
+    outline: none;
+}
+
+form {
+    display: flex;
+    overflow:hidden;
+    
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+.formposition {
+    display: flex;
+    background-color: #FFA45C;
+    min-height: 95vh;
+    width: 80vh;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formposition .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.formposition .row-1{
+    transition: all 0.3s ease;
+}
+
+#next-1:checked ~ .form-area .formposition .row-1{
+    margin-left: 0%;
+}
+
+#next-2:checked ~ .form-area .formposition .row-1{
+    margin-left: -100%;
+}
+
+#next-3:checked ~ .form-area .formposition .row-1{
+    margin-left: -200%;
+}
+
+
+.formtext1 {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 30rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+    color: #5D5D5A;
+}
+
+.logintext{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    width: 30rem;
+
+    color: #5D5D5A;
+}
+
+.loginsignuptext{
+    font-family: cursive;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    width: initial;
+    color: #1167b1;
+    background-color: #FFA45C;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.formtext2 {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 30rem;
+    padding: 2rem 1rem 2rem 1rem;
+
+    color: #fff;
+}
+
+.formbox {
+
+    padding: 0rem 0rem 2rem 1rem;
+    color: #7E7E79;
+}
+
+.form-area {
+    display: flex;
+}
+
+
+.formbox input{
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    /* line-height: 1.5rem; */
+    /* width: 30rem; */
+
+    width: 450px;
+    height: 55px;
+    left: 250px;
+    top: 10px;
+    padding: 0rem 0rem 0rem 2rem;
+
+    background-color: #FFF8CC;
+}
+
+.formbox option{
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    /* line-height: 1.5rem; */
+    /* width: 30rem; */
+
+    width: 482px;
+    height: 55px;
+    left: 250px;
+    top: 10px;
+    padding: 0rem 0rem 0rem 2rem;
+
+    background-color: #FFF8CC;
+}
+
+.formbox select{
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    /* line-height: 1.5rem; */
+    /* width: 30rem; */
+
+    width: 482px;
+    height: 55px;
+    left: 250px;
+    top: 10px;
+    padding: 0rem 0rem 0rem 2rem;
+
+    background-color: #FFF8CC;
+}
+
+.actionlabel {
+    display: flex;
+    padding: 2.5rem 0rem 0rem 0rem;
+}
+
+.nextlabel-1 {
+
+    padding: 0rem 0rem 0rem 23rem;
+    color:  #FFF8CC;
+    
+}
+
+.nextlabel-1 label {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+    background-color: #5D5D5A;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextlabel {
+
+    padding: 0rem 0rem 0rem 14rem;
+    color:  #FFF8CC;
+    
+}
+
+.nextlabel label {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+    background-color: #5D5D5A;
+    justify-content: center;
+    align-items: center;
+}
+
+.backlabel {
+    padding: 0rem 0rem 0rem 1rem;
+    color:  #FFF8CC;
+    
+}
+
+.backlabel label {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+    background-color: #5D5D5A;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextlabel input {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #FFF8CC;
+
+    background-color: #5D5D5A;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-area .formposition .nextlabel .slider {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#next-1:checked ~ .form-area .formposition .nextlabel .slider {
+    left: 0%;
+    width: 130px;
+    transform: translate(0%);
+}
+
+#next-2:checked ~ .form-area .formposition .nextlabel .slider {
+    left: 50%;
+    width: 160px;
+    transform: translate(-165%);
+}
+
+#next-3:checked ~ .form-area .formposition .nextlabel .slider {
+    left: 100%;
+    width: 135px;
+    transform: translate(126%);
+}

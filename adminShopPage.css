@@ -1,0 +1,251 @@
+* {
+    border: none;
+    outline: none;
+    /* transition: all .2s ease-in-out; */
+}
+
+.colour1 {
+    background-color: #fff8cc;
+    min-height: 90vh;
+    width: auto;
+    padding: 3rem 2rem 5rem 2rem;}
+
+.titleappointmenttext {
+    margin-bottom: 4rem;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.search {
+    display: flex;
+    border: 0;
+    float: right;
+}
+.searchBox {
+    border-width: 0;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: 3px solid #ffa45c;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.searchButton {
+    border-width: 0;
+    background-color: white;
+    padding: 5px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    border-bottom: 3px solid #ffa45c;
+
+}
+
+.searchButton lord-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.titleSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* .table tr {
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: #5D5D5A;
+    border-color: #5D5D5A;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+} */
+
+.table {
+    display: flex;
+}
+
+#leftTable {
+    float: left;
+    width: 28%;
+}
+
+#rightTable {
+    float: right;
+    width: 70%;
+}
+
+.table th{
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: #5D5D5A;
+    /* border-color: #5D5D5A; */
+    /* border-style: solid; */
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.leftHeader {
+    border-radius: .7rem 0rem 0rem 0rem;
+}
+
+.rightHeader {
+    border-radius: 0rem .7rem 0rem 0rem;
+}
+
+.table td {
+    /* border-color: #5D5D5A;
+    border-style: solid; */
+
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #fffcec;
+    font-family: Itim;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #4d2a00;
+}
+
+.productImage {
+    height: 5rem;
+    width: 5rem;
+    border-radius: .7rem;
+    border: #e5e3d4 0.01rem solid;
+}
+
+.iconcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputfield {
+    background: #FFA45C;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+    width: 10rem;
+}
+
+.inputfield::placeholder {
+    color: #fff;
+}
+
+input#categorynm {
+    width: 16rem;
+}
+
+td.fieldContainer {
+    background: #FFA45C;
+    border-radius: 0rem 0rem 0rem .7rem;
+    padding-right: 0;
+}
+
+.addButton {
+    background-color: #FFA45C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.addButton:hover {
+    box-shadow: 0 0 10px #fff;
+    transition: all .2s ease-in-out;
+
+}
+
+.editButton {
+    background-color: #fffcec;
+    cursor: pointer;
+}
+
+td.addField {
+    background: #FFA45C;
+    border-radius: 0rem 0rem .7rem 0rem;
+}
+
+.categoryRow td {
+    border-bottom: #e5e3d4 0.01rem solid;
+    font-size: 1.2rem;
+}
+
+.productRow td {
+    border-bottom: #e5e3d4 0.01rem solid;
+    font-size: 1.2rem;
+}
+
+.filePicker {
+    width: 11rem;
+}
+
+td.imageField {
+    background-color: #FFA45C;
+    /* padding: 0; */
+    color: #fff;
+}
+
+td.priceField {
+    background-color: #FFA45C;
+}
+
+.price {
+    background: #FFA45C;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+    width: 8rem;
+}
+
+.price::placeholder {
+    color: #fff;
+}
+
+td.categoryField {
+    background-color: #FFA45C;
+}
+
+.category {
+    background: #FFA45C;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+    width: 7rem;
+    cursor: pointer;
+}
+
+td.resetField {
+    background: #FFA45C;
+}
+
+.resetButton {
+    background-color: #FFA45C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    /* outline: #4d2a00 1px solid; */
+}
+
+.resetButton:hover {
+    box-shadow: 0 0 10px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.saveEditButton {
+    background-color: #FFA45C;
+    cursor: pointer;
+}

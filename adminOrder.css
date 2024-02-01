@@ -1,0 +1,112 @@
+* {
+    border: none;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.adminOrderContent {
+    background-color: #fff8cc;
+    min-height: 90vh;
+    width: auto;
+    padding: 3rem 7rem 5rem 7rem;
+}
+
+.titleAdminOrder {
+    margin-bottom: 4rem;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.search {
+    display: flex;
+    border: 0;
+    float: right;
+}
+.searchBox {
+    border-width: 0;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border-bottom: 3px solid #ffa45c;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.searchButton {
+    border-width: 0;
+    background-color: white;
+    padding: 5px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    border-bottom: 3px solid #ffa45c;
+
+}
+
+.searchButton lord-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.titleSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: .7rem;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: .7rem;
+}
+
+/* table tr:last-child td:first-child {
+    border-bottom-left-radius: .7rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: .7rem;
+}
+ */
+.tableHead {
+    background-color: #5D5D5A;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.headerContent {
+    padding: 2rem 1rem 2rem 1rem;
+
+}
+
+table td {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #fffcec;
+    font-family: Itim;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: #4d2a00;
+
+}
+
+.productImage {
+    max-width: 5rem;
+    max-height: 5rem;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    /* border: #ffa45c 0.1rem solid; */
+    /* padding: 2rem; */
+    vertical-align: middle;
+    margin: 2rem 1rem 2rem 2rem;
+}
+
+.orderRow td {
+    border-bottom: #e5e3d4 0.01rem solid;
+
+}
+

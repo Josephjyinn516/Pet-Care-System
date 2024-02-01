@@ -1,0 +1,517 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:  220px 3cm;
+    background: #FFF8CC;
+}
+
+.banner h1 {
+    position: absolute;
+width: 475px;
+height: 111px;
+left: 78px;
+top: 126px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 92px;
+
+color: #000000;
+}
+
+.banner .table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.banner .table td,.banner .table th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align:center;
+    font-family: cursive;
+}
+
+.table th{
+    background-color: #5D5D5A;
+    color: #ddd;
+    font-family: cursive;
+
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: #FFA45C;
+}
+
+#info-popup {
+    display: none;
+    position: absolute;
+width: 610px;
+height: 800px;
+left: 50%;
+top: 50%;
+background: #FFA45C;
+border-radius: 30px;
+transform: translate(-50%, -50%);
+}
+
+/* .open-info-popup {
+    visibility: visible;
+} */
+
+#info-popup .owner {
+    position: absolute;
+width: 429px;
+height: 256px;
+left: 36px;
+top: 21px;
+
+}
+
+#info-popup .owner h2{
+    position: absolute;
+width: 353px;
+height: 70px;
+left: -38px;
+top: 0px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+
+color: #5D5D5A;
+}
+
+#info-popup .owner p1{
+    position: absolute;
+width: 215px;
+height: 35px;
+left: -28px;
+top: 88px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#info-popup .owner p2 {
+    position: absolute;
+width: 36px;
+height: 35px;
+left: 300px;
+top: 88px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#info-popup .owner p3{
+    
+position: absolute;
+width: 200px;
+height: 35px;
+left: -28px;
+top: 200px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+#info-popup .owner p4 {
+    position: absolute;
+    width: 72px;
+    height: 35px;
+    left: 300px;
+    top: 200px;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+#info-popup .pet{
+    position: absolute;
+width: 429px;
+height: 256px;
+left: 36px;
+top: 290px;
+}
+
+#info-popup .pet h2{
+    position: absolute;
+width: 239px;
+height: 58px;
+left: -10px;
+top: 0px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #5D5D5A;
+}
+
+#info-popup .pet p1 {
+    position: absolute;
+width: 141px;
+height: 35px;
+left: -8px;
+top: 94px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+#info-popup .pet p2 {
+    position: absolute;
+    width: 96px;
+    height: 35px;
+    left: 300px;
+    top: 94px;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+#info-popup .pet p3 {
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    left: -8px;
+    top: 200px;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+#info-popup .pet p4 {
+    position: absolute;
+    width: 95px;
+    height: 35px;
+    left: 300px;
+    top: 200px;
+    
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+
+#info-popup .appointment{
+    position: absolute;
+width: 429px;
+height: 256px;
+left: 36px;
+top: 550px;
+}
+
+#info-popup .appointment h2 {
+    position: absolute;
+width: 270px;
+height: 58px;
+left: -18px;
+top: 0px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #5D5D5A;
+}
+
+#info-popup .appointment p1{
+    position: absolute;
+width: 221px;
+height: 35px;
+left: -18px;
+top: 94px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#info-popup .appointment p2{
+    position: absolute;
+width: 70px;
+height: 42px;
+left: 0px;
+top: 200px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+
+color: #FFFFFF;
+}
+
+#info-popup .appointment p3{
+    position: absolute;
+width: 70px;
+height: 42px;
+left: 300px;
+top: 200px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+
+color: #FFFFFF;
+}
+
+.accept-decline {
+position: absolute;
+width: 700px;
+height: 350px;
+left: 705px;
+top: 300px;
+
+background: #FFA45C;
+border-radius: 30px;
+transform: translate(-50%, -50%) scale(0.1);
+visibility: hidden;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.accept-decline p {
+    position: absolute;
+width: 720px;
+height: 224px;
+left: -10px;
+top:30px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+
+color: #5D5D5A;
+}
+
+.btn-yes {
+    position: absolute;
+width: 200px;
+height: 70px;
+left: 120px;
+top: 245px;
+
+background: #FFF8CC;
+border-radius: 20px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+cursor: pointer;
+
+color: #5D5D5A;
+}
+
+.btn-no {
+    position: absolute;
+width: 200px;
+height: 70px;
+left: 392px;
+top: 246px;
+
+background: #FFF8CC;
+border-radius: 20px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+cursor: pointer;
+
+color: #5D5D5A;
+}
+
+.appointment-done {
+    position: absolute;
+width: 474px;
+height: 600px;
+left: 507px;
+top: 145px;
+
+background: #FFA45C;
+border-radius: 30px;
+transform: translate(-50%, -50%) scale(0.1);
+visibility: hidden;
+}
+
+
+.openYes {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.appointment-done img{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 91px;
+top: 36px;
+}
+
+.appointment-done h3 {
+    position: absolute;
+width: 263px;
+height: 92px;
+left: 105px;
+top: 346px;
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+text-align: center;
+
+color: #5D5D5A;
+}
+
+.appointment-done p {
+    position: absolute;
+width: 435px;
+height: 104px;
+left: 23px;
+top: 473px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+
+color: #7E7E79;
+}
+
+.appointment-done btn{
+    position: absolute;
+width: 435px;
+height: 104px;
+left: 59px;
+top: 557px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFF8CC;
+}
+
+
+/*responsive*/
+@media(max-width: 500px){
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+
+    .table tr{
+        margin-bottom: 15px;
+    }
+
+    .table td {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}

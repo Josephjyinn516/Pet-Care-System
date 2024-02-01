@@ -1,0 +1,81 @@
+.colour1 {
+    background-color: #fff8cc;
+    min-height: 75vh;
+    width: auto;
+    display: flex;
+    padding: 0rem 2rem 2rem 2rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titleappointmenttext {
+    display: flex;
+    padding: 0rem 48rem 1rem 0rem;;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FFA45C;
+    min-height: auto;
+    width: auto;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.title {
+    display: flex;
+}
+
+.titlesign {
+    padding: 1rem 1rem 1rem 1rem;
+    width: auto;
+}
+
+.titlecontent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.titlecontent2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.separatebutton{
+    padding: 0rem 3rem 0rem 0rem
+}
+
+.buttoncontent{
+    display: flex;
+    padding: 3rem 0rem 0rem 0rem;
+    justify-content: flex-end;
+
+}
+
+.button {
+    font-family: cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FFA45C;
+    width: fit-content;
+    color: black;
+    border-radius: 2rem;
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

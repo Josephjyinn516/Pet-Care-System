@@ -1,0 +1,63 @@
+
+
+
+.banner2 .table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.banner2 .table td,.banner .table th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align:center;
+    font-family: cursive;
+}
+
+.table th{
+    background-color: #5D5D5A;
+    color: #ddd;
+    font-family: cursive;
+
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: #FFA45C;
+}
+
+
+
+.banner2 button {
+	box-sizing: border-box;
+
+position: absolute;
+width: 100px;
+height: 30px;
+right: 50px;
+top: 335px;
+
+background: #FFA45C;
+border: 1px solid #000000;
+
+
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+text-align: center;
+
+color: #5D5D5A;
+cursor: pointer;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.banner2 h1 {
+    text-align: center;
+}

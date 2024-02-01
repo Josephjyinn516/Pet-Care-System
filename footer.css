@@ -1,0 +1,78 @@
+.footerContent {
+    padding: 4rem;
+    min-height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    width: 15rem;
+
+}
+
+.leftText1 {
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    color: #999999;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+    width: 25rem;
+}
+
+.socialTitle {
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    color: #999999;
+}
+
+.socialLogo i {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    background: #FFF8CC;
+    margin: 1.1rem 1rem 0rem 0rem;
+    cursor: pointer;
+}
+
+.socialLogo i:hover {
+    box-shadow: 0 0 5px rgba(33, 33, 33, .3);
+}
+
+
+i.bx.bxl-facebook.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-twitter.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-youtube.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-linkedin.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workHourTitle {
+    font-family: cursive;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.workHourContent {
+    width: 25rem;
+}

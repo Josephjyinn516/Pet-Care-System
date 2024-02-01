@@ -1,0 +1,921 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 1cm;
+    justify-content: space-around;
+}
+
+
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+nav .logo img{
+    width: 3cm;
+    transition: transform .5s;
+}
+
+.logo img:hover{
+    transform: scale(1.5);
+}
+
+nav .nav-links{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+nav .nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 15px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+nav .nav-links ul li a:hover{
+    color: #D5895C;
+}
+
+nav .nav-icons {
+    flex-basis: 30%;
+    align-items: right;
+}
+
+nav .nav-icons i {
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    transition: transform .5s;
+}
+
+.nav-icons i:hover{
+    transform: scale(1.5);
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 120px 2cm;
+    background: #FFF8CC;
+}
+
+.banner .leftSide h1{
+    font-size: 65px;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-bottom: 1cm;
+}
+
+.banner .leftSide {
+    width: 40%;
+}
+
+.banner .leftSide p{
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 1cm;
+}
+
+.banner .leftSide button {
+    padding: 15px 50px;
+    background: transparent;
+    color: #D5895C;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    border: 2px solid #D5895C;
+    border-radius: 60px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.banner .leftSide button:hover{
+    background: #D5895C;
+    color: white;
+}
+
+.banner .rightSide{
+    position: absolute;
+    left: 320px;
+    top: 220px; 
+}
+
+.banner .rightSide img{
+    filter: drop-shadow(10px 10px 10px grey);
+}
+
+.banner .chatBubble {
+    position: absolute;
+    left: 520px;
+    top: 115px;
+}
+
+.dogFood img {
+    position: absolute;
+    left: -60px;
+    top: 470px;
+    transform: rotate(174.5deg);
+}
+
+.dogFood1 {
+    position: absolute;
+left: 590px;
+top: 165px;
+}
+
+.dogFood2 {
+    position: absolute;
+    left: 770px;
+    top: 165px;
+}
+
+.banner2 .middle {
+    margin-top: 10cm;
+}
+
+
+.banner2 .middle .black {
+    position: absolute;
+width: 504px;
+height: 111px;
+margin-top: -7cm;
+margin-left: 12cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #000000;
+}
+
+.banner2 .middle .orange {
+position: absolute;
+width: 504px;
+height: 111px;
+margin-top: -7cm;
+margin-left: 16.5cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #D5895C;
+}
+
+.servicesContentImg .image-row {
+    display:table;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.servicesContentImg .image-row img{
+    margin-right: 2cm;
+    margin-top: -3cm;
+}
+
+.word-row {
+    list-style: none; /* Remove the bullet points */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.word-row li {
+    line-height: 4cm;
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.word-row li w1 {
+    position: absolute;
+    left: 215px;
+    top: 1150px;
+    font-family: 'Comic Sans MS';
+}
+
+.word-row li w2 {
+    position: absolute;
+    left: 460px;
+    top: 1150px;
+    font-family: 'Comic Sans MS';
+}
+
+.word-row li w3 {
+    position: absolute;
+left: 745px;
+top: 1150px;
+font-family: 'Comic Sans MS';
+}
+
+.word-row li w4 {
+    
+position: absolute;
+left: 1040px;
+top: 1150px;
+font-family: 'Comic Sans MS';
+}
+
+.serviceDetails d1{
+    position: absolute;
+    left: 140px;
+    top: 1280px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #999999;
+}
+
+.serviceDetails d2{
+    position: absolute;
+    left: 430px;
+    top: 1280px;
+
+        font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #999999;
+}
+
+
+.serviceDetails d3{
+    position: absolute;
+    left: 710px;
+    top: 1280px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #999999;
+}
+
+.serviceDetails d4{
+    position: absolute;
+    left: 990px;
+    top: 1280px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #999999;
+}
+
+.banner3{
+    position: absolute;
+    width: 1440px;
+    height: 1050px;
+    top: 1550px;
+    background: #FFF8CC;
+}
+
+.banner3 .middle2 .black2 {
+    position: absolute;
+width: 504px;
+height: 111px;
+margin-top: 0.5cm;
+margin-left: 19.5cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #000000;
+}
+
+.banner3 .middle2 .orange2 {
+position: absolute;
+width: 504px;
+height: 111px;
+margin-top: 0.5cm;
+margin-left: 14cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #D5895C;
+}
+
+.banner3 .img1 {
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+
+.banner3 .img2 {
+    position: absolute;
+    left: 380px;
+    top: 180px;
+
+}
+
+.banner3 .img3 {
+    position: absolute;
+    left: 780px;
+    top: 180px;
+}
+
+.banner3 .img4 {
+    position: absolute;
+    left: 1100px;
+    top: 320px;
+}
+
+.banner3 .img1 wu1 {
+    position: absolute;
+left: 30px;
+top: 280px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-size: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.banner3 .img2 wu2 {
+    position: absolute;
+left: 40px;
+top: 280px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-size: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.banner3 .img3 wu3 {
+    position: absolute;
+left: 40px;
+top: 280px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-size: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.banner3 .img4 wu4 {
+    position: absolute;
+left: 20px;
+top: 280px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-size: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.banner3 .img1 wud1 {
+    position: absolute;
+    left: 40px;
+    top: 335px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color: #999999;
+}
+
+.banner3 .img2 wud2 {
+    position: absolute;
+    left: 30px;
+    top: 335px;
+
+        font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+   font-size: 15px;
+    color: #999999;
+}
+
+.banner3 .img3 wud3 {
+    position: absolute;
+    left: 35px;
+    top: 335px;
+        font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+   font-size: 15px;
+
+    color: #999999;
+}
+
+.banner3 .img4 wud4 {
+    position: absolute;
+    left: 35px;
+    top: 335px;
+
+        font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color: #999999;
+}
+
+.banner3 .dog {
+    position: absolute;
+
+left: 50px;
+top: 750px;
+}
+
+.banner4 .middle3 .black3 {
+    position: absolute;
+width: 504px;
+height: 111px;
+margin-top: 42cm;
+margin-left: 19.5cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #000000;
+}
+
+.banner4 .middle3 .orange3 {
+position: absolute;
+width: 504px;
+height: 111px;
+margin-top: 42cm;
+margin-left: 11cm;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 111px;
+
+color: #D5895C;
+}
+
+.banner4 .review-msg .msg {
+    position: absolute;
+    left: 30%;
+    top: 2950px;
+
+        font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+
+color: #999999;
+}
+
+.banner4 .editor-name img {
+    position: absolute;
+left: 45%;
+top: 3080px;
+}
+
+.banner4 .editor-name span {
+    position: absolute;
+left: 44%;
+top: 3125px;
+
+font-family: 'Comic Sans MS';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+}
+
+.banner4 .rect {
+    position: absolute;
+width: 1440px;
+height: 100px;
+top: 3300px;
+
+background: #49BA86;
+}
+
+.banner4 .rect i {
+    color: #fff;
+    font-size: 40px;
+    padding-left: 37px;
+    padding-top: 33px;
+}
+
+.banner4 .rect .address {
+    position: absolute;
+    width: 478px;
+    height: 26px;
+    left: 90px;
+    top: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.banner4 .rect .contact i {
+    color: rgb(126, 68, 68);
+    font-size: 40px;
+    left: 580px;
+    top: 200px;
+}
+
+.banner4 .rect .phone {
+    position: absolute;
+    width: 478px;
+    height: 26px;
+    left: 778px;
+    top: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.banner4 .rect .email {
+    position: absolute;
+width: 478px;
+height: 26px;
+left: 1000px;
+top: 40px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.banner4 .rect .mail i {
+    color: white;
+    padding-left: 960px;
+    padding-top: -200px;
+}
+
+.banner4 .rect .live-map iframe{
+    width: 1440px;
+    height: 600px;
+}
+
+.rectCard {
+    position: absolute;
+width: 500px;
+height: 506px;
+left: 770px;
+top: 30px;
+
+background: #fff5b6;
+border-radius: 50px;
+}
+
+.userProfile .ellipse {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 185px;
+top: 25px;
+border-radius: 50%;
+
+background: #D9D9D9;
+}
+
+.rectCard i {
+    position: absolute;
+left: 30px;
+top: 16px;
+cursor:pointer;
+}
+
+.userProfile h2 {
+    
+position: absolute;
+width: 244px;
+height: 46px;
+left: -47px;
+top: 150px;
+
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+
+color: #5D5D5A;
+}
+
+.userProfile p {
+    position: absolute;
+width: 173px;
+height: 27px;
+left: -10px;
+top: 197px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+
+color: #999999;
+
+}
+
+.notification .ellipse {
+    position: absolute;
+width: 65px;
+height: 65px;
+left: 86px;
+top: -677px;
+border-radius: 50%;
+
+background: #FFED7A;
+}
+
+.notification p {
+    position: absolute;
+width: 93px;
+height: 26px;
+left: 70px;
+top: -619px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 23px;
+text-align: center;
+
+color: #999999;
+}
+
+.edit-info .ellipse {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 364px;
+    top: -1427px;
+    border-radius: 50%;
+    
+    background: #FFED7A;
+}
+
+.edit-info .ellipse i{
+    position: absolute;
+    left: 14px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.edit-info p {
+    position: absolute;
+    width: 93px;
+    height: 26px;
+    left: 349px;
+    top: -1369px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #999999;
+}
+
+.rectCard .email {
+    position: absolute;
+width: 319px;
+height: 40px;
+left: 63px;
+top: 376px;
+}
+
+.rectCard .email p {
+    position: absolute;
+    width: 232px;
+    height: 39px;
+    left: 1px;
+    top:-115px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #999999;
+    
+}
+
+.rectCard .phone p{
+    
+position: absolute;
+width: 232px;
+height: 39px;
+left: 28px;
+top: -1922px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+
+color: #999999;
+}
+
+.rectCard .address p{
+    position: absolute;
+width: 232px;
+height: 39px;
+left: 35px;
+top: -2605px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+
+color: #999999;
+
+}
+
+.rectCard .address box-icon {
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 36px;
+top: -2585px;
+cursor: pointer;
+}
+
+.rectCard box-icon {
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 30px;
+top: 16px;
+cursor: pointer;
+}
+
+.footerContent {
+    padding: 4rem;
+    min-height: 750vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    width: 15rem;
+
+}
+
+.leftText1 {
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    color: #999999;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+    width: 25rem;
+}
+
+.socialTitle {
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: Verdana, sans-serif;
+    color: #999999;
+}
+
+.socialLogo i {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    background: #FFF8CC;
+    margin: 1.1rem 1rem 0rem 0rem;
+    cursor: pointer;
+}
+
+.socialLogo i:hover {
+    box-shadow: 0 0 5px rgba(33, 33, 33, .3);
+}
+
+
+i.bx.bxl-facebook.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-twitter.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-youtube.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.bx.bxl-linkedin.bx-sm {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workHourTitle {
+    font-family: cursive;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.workHourContent {
+    width: 25rem;
+}
